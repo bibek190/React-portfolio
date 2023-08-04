@@ -22,18 +22,18 @@ const Header = () => {
         </label>
         <ul className="navlinks">
           <li>
-            <a href="#home" className="active">
+            <a href="/" className="active">
               HOME
             </a>
           </li>
           <li>
-            <a href="#about-page">About</a>
+            <a href="/About">About</a>
           </li>
           <li>
-            <a href="#skills">Skills</a>
+            <a href="/Skills">Skills</a>
           </li>
           <li>
-            <a href="#social-page">Socials</a>
+            <a href="/socials">Socials</a>
           </li>
         </ul>
       </header>
