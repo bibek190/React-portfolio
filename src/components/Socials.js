@@ -4,7 +4,7 @@ import Layout from "./Layout";
 const Socials = () => {
   return (
     <Layout>
-      <div>
+      <div className="socialPage">
         <section className="socials" id="social-page">
           <i className="fa-brands fa-facebook"></i>
           <i className="fa-brands fa-linkedin"></i>

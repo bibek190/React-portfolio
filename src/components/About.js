@@ -1,6 +1,7 @@
 import React from "react";
 import userImg from "../profile.png";
 import Layout from "./Layout";
+import Header from "./Header";
 
 const About = () => {
   return (
