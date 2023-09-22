@@ -78,7 +78,7 @@ header .navlinks {
 .navlinks a {
   width: 25%;
   font-weight: 600;
-  color: rgb(11, 18, 224);
+  color: rgb(237, 237, 241);
   font-size: 1.3rem;
   padding: 0.4rem 2rem;
   transition: 0.5s ease;
@@ -331,11 +331,20 @@ header .navlinks {
   background: var(--primary-dark);
   font-size: 4rem;
   gap: 4rem;
+  width: 100%;
 }
-.socials i {
+.socialPage {
+  display: flex;
+  height: 80vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .socials i {
   border-radius: 100%;
-  background: skyblue;
-}
+  background: rgb(26, 29, 30);
+} */
 
 /* .......................@media query----------------------- */
 @media (max-width: 700px) {
@@ -463,11 +472,18 @@ header .navlinks {
   .skills {
     justify-content: center;
     gap: 1rem;
-    margin-top: -7rem;
+    margin-top: 1rem;
   }
+
   .socials i {
     border-radius: 100%;
     background-color: rgb(27, 27, 105);
     font-size: 3rem;
+    margin: auto;
   }
+}
+/* -------------footer---------- */
+
+.footer {
+  text-align: center;
 }
